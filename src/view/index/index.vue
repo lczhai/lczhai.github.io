@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="warp">
   翟留闯：zhailuo@163.com
 </div>
 </template>
@@ -17,5 +17,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.warp{
+  color:#fff;
+}
 </style>
