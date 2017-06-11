@@ -8,7 +8,10 @@
       <span class="realname">翟留闯</span>
       <a class="github-url" href="https://github.com/lczhai" target="_blank">https://github.com/lczhai</a>
       <span>Email : zhailuo@163.com</span>
+      <a class="resume" href="/resume" target="_blank">个人简历</a>
     </div>
+    
+    
   </div>
 
   <!--右边部分-->
@@ -63,7 +66,7 @@ export default {
 }
 
 .warp-left-content{
-  height: 350px;
+  height: 400px;
   margin: auto;
   width: 48%;
   font-size: 18px;
@@ -76,7 +79,7 @@ export default {
 .warp-left{
     width: 50%;
     text-align: center;
-    height: 350px;
+    height: 400px;
 }
 .avatar{
   height: 205px;
@@ -131,6 +134,15 @@ export default {
 }
 .warp-right-description{
   color: #fff;
+}
+
+.resume{
+  margin-top:10px;
+  display:block;
+  color:#fff;
+}
+.resume:hover{
+  color:burlywood;
 }
 
 </style>
