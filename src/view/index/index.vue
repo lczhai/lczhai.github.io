@@ -140,6 +140,7 @@ export default {
   margin-top:10px;
   display:block;
   color:#fff;
+  text-decoration: none;
 }
 .resume:hover{
   color:burlywood;
