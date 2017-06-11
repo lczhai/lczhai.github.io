@@ -8,7 +8,10 @@
       <span class="realname">翟留闯</span>
       <a class="github-url" href="https://github.com/lczhai" target="_blank">https://github.com/lczhai</a>
       <span>Email : zhailuo@163.com</span>
-      <a class="resume" href="/resume" target="_blank">个人简历</a>
+      <!--
+        <a class="resume" href="/resume" target="_blank">个人简历</a>
+      -->
+      <a class="resume" href="http://zhailiuchuang.oschina.io/" target="_blank">个人简历</a>
     </div>
     
     
