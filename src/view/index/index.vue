@@ -11,7 +11,11 @@
       <!--
         <a class="resume" href="/resume" target="_blank">个人简历</a>
       -->
-      <a class="resume" href="http://zhailiuchuang.oschina.io/" target="_blank">个人简历</a>
+      <div class="resume">
+        <a  href="http://zhailiuchuang.oschina.io/" target="_blank">个人简历</a>
+
+        <img class="dowunload" src="../../statics/images/download.png" @click="downloadFile">
+      </div>
     </div>
     
     
@@ -55,6 +59,9 @@ export default {
   methods:{
     jumpUrl(url){
       window.open(url);
+    },
+    downloadFile(){
+      window.location.href = '../../static/source/resum.docx';
     }
   }
 }
@@ -141,12 +148,20 @@ export default {
 
 .resume{
   margin-top:10px;
-  display:block;
-  color:#fff;
-  text-decoration: none;
+  
 }
-.resume:hover{
+
+.resume a{
+  color:#fff;
+    text-decoration: none;
+}
+.resume a:hover{
   color:burlywood;
+}
+
+.dowunload{
+      width: 16px;
+      margin-left: 10px;
 }
 
 </style>
