@@ -9,10 +9,9 @@ baseurl: '/'
 author:
   name: 'zlc'
   email: zhailuo@163.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
+  # twitter_username: joshgerdes
+  # facebook_username: profile.php?id=100013054622904
   github_username:  lczhai
-  linkedin_username:  joshgerdes
 
   # name: 'zlc'
   # email: zhailuo@163.com
