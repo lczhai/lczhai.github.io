@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Markdown Syntax"
+title:  "Markdown 语法"
 date:   2016-03-15
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+excerpt: "这里有你需要的各种关于文章的知识:比如段落,代码块,表格,图片,引用等等..."
 tag:
 - markdown 
 - syntax

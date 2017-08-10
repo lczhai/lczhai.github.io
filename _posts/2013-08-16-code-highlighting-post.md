@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Syntax Highlighting Post
+title: 高亮语法
 date: 2013-08-16
-excerpt: "Demo post displaying the various ways of highlighting code in Markdown."
+excerpt: "Demo展示了在Markdown中突出代码的各种方式."
 tags: [sample post, code, highlighting]
 comments: true
 ---
 
-Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
+语法高亮显示是一种显示源代码的特性，根据术语的种类不同的颜色和字体。该特性有助于以结构化语言编写，例如编程语言或标记语言，因为结构和语法错误在视觉上是截然不同的。高亮显示并不影响文本本身的含义;它只针对人类读者.[^1]
 
 [^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 

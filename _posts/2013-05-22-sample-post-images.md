@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "A Post with Images"
+title: "关于在文章中插入图片"
 date: 2013-05-22
-excerpt: "Examples and code for displaying images in posts."
+excerpt: "在文章中显示图像的例子和代码."
 tags: [sample post, images, test]
 comments: true
 ---
 
-Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
+下面是一些图片的例子。如果您想要显示两个或三个图像，那么您就可以使用适当的“类”来响应。“图”的每个实例都自动编号并显示在标题中。
 
 ### Figures (for images or video)
 
