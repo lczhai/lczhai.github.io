@@ -1,1 +1,30 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><title>翟留闯的GitHub</title><link href=./static/icon/icon.ico rel="shortcut icon"><link rel=stylesheet href="http://static.500d.me/resources/500d/editresume/css/zxbj_base.css?v=4092"><link rel=stylesheet href="http://static.500d.me/resources/500d/editresume/css/base.css?v=4092"><link rel=stylesheet href=http://static.500d.me/resources/500d/editresume/css/jm0262.css><link rel=stylesheet href="http://static.500d.me/resources/500d/editresume/css/bootstrap.min.css?v=4092"><link rel=stylesheet href="http://static.500d.me/resources/500d/editresume/css/common.css?v=4092"><link href=./static/css/app.a080b72515868bf42af4ed05aab48f23.css rel=stylesheet></head><body style=background:#000><div id=app></div><script type=text/javascript src=./static/js/manifest.47ad8627d64025b1209e.js></script><script type=text/javascript src=./static/js/vendor.14981fcad6a920cdb5d3.js></script><script type=text/javascript src=./static/js/app.a559b6f2c02e065f3f1a.js></script></body></html>
+---
+layout: default
+robots: noindex
+---
+
+<div class="main-post-list">
+
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
+        <div class="post-list__meta">
+            <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time>
+            {% if post.tags.size > 0 %}
+            &#8226; <span class="post-meta__tags">on {% for tag in post.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
+            {% endif %}
+        </div>
+        <hr class="post-list__divider">
+      </li>
+    {% endfor %}
+  </ol>
+
+  <hr class="post-list__divider ">
+
+  {% if paginator.previous_page or paginator.next_page %}
+      {% include pagination.html %}
+  {% endif %}
+
+</div>

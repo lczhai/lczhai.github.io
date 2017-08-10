@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>翟留闯</title>
+    <description>有情怀的做技术</description>
+    <link>https://lczhai.github.io///</link>
+    <atom:link href="https://lczhai.github.io///feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 10 Aug 2017 15:31:54 +0800</pubDate>
+    <lastBuildDate>Thu, 10 Aug 2017 15:31:54 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>春江花月夜</title>
+        <description>&lt;p&gt;春江潮水连海平，海上明月共潮生。
+滟滟随波千万里，何处春江无月明！
+江流宛转绕芳甸，月照花林皆似霰；
+空里流霜不觉飞，汀上白沙看不见。
+江天一色无纤尘，皎皎空中孤月轮。
+江畔何人初见月？江月何年初照人？
+人生代代无穷已，江月年年只相似。
+不知江月待何人，但见长江送流水。
+白云一片去悠悠，青枫浦上不胜愁。
+谁家今夜扁舟子？何处相思明月楼？
+可怜楼上月徘徊，应照离人妆镜台。
+玉户帘中卷不去，捣衣砧上拂还来。
+此时相望不相闻，愿逐月华流照君。
+鸿雁长飞光不度，鱼龙潜跃水成文。
+昨夜闲潭梦落花，可怜春半不还家。
+江水流春去欲尽，江潭落月复西斜。
+斜月沉沉藏海雾，碣石潇湘无限路。
+不知乘月几人归，落月摇情满江树。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;吟诗完毕!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help --&gt;
+</description>
+        <pubDate>Sun, 08 Jan 2017 23:04:23 +0800</pubDate>
+        <link>https://lczhai.github.io///2017/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://lczhai.github.io///2017/welcome-to-jekyll/</guid>
+        
+        <category>intro</category>
+        
+        
+        <category>intro</category>
+        
+      </item>
+    
+  </channel>
+</rss>

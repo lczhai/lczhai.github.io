@@ -1,0 +1,44 @@
+# Site settings
+title: 翟留闯
+description: '有情怀的做技术'
+url: 'https://lczhai.github.io/'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'zlc'
+  email: zhailuo@163.com
+  twitter_username: joshgerdes
+  facebook_username: joshgerdes
+  github_username:  lczhai
+  linkedin_username:  joshgerdes
+
+  # name: 'zlc'
+  # email: zhailuo@163.com
+  # phone: 13604083099
+  # qq: 569797221
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
