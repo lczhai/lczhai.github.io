@@ -3,10 +3,10 @@
   <channel>
     <title>翟留闯</title>
     <description>有情怀的做技术</description>
-    <link>https://lczhai.github.io//</link>
-    <atom:link href="https://lczhai.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Aug 2017 16:17:01 +0800</pubDate>
-    <lastBuildDate>Thu, 10 Aug 2017 16:17:01 +0800</lastBuildDate>
+    <link>https://lczhai.github.io///</link>
+    <atom:link href="https://lczhai.github.io///feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 10 Aug 2017 15:41:57 +0800</pubDate>
+    <lastBuildDate>Thu, 10 Aug 2017 15:41:57 +0800</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -41,8 +41,8 @@
 [jekyll-help]: https://github.com/jekyll/jekyll-help --&gt;
 </description>
         <pubDate>Sun, 08 Jan 2017 23:04:23 +0800</pubDate>
-        <link>https://lczhai.github.io//2017/first/</link>
-        <guid isPermaLink="true">https://lczhai.github.io//2017/first/</guid>
+        <link>https://lczhai.github.io///2017/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://lczhai.github.io///2017/welcome-to-jekyll/</guid>
         
         <category>intro</category>
         

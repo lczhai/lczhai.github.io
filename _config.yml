@@ -1,7 +1,7 @@
 # Site settings
 title: 翟留闯
 description: '有情怀的做技术'
-url: 'https://lczhai.github.io'
+url: 'https://lczhai.github.io/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
@@ -9,9 +9,10 @@ baseurl: '/'
 author:
   name: 'zlc'
   email: zhailuo@163.com
-  # twitter_username: joshgerdes
-  # facebook_username: profile.php?id=100013054622904
+  twitter_username: joshgerdes
+  facebook_username: joshgerdes
   github_username:  lczhai
+  linkedin_username:  joshgerdes
 
   # name: 'zlc'
   # email: zhailuo@163.com
