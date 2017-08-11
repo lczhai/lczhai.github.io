@@ -5,10 +5,7 @@ date:   2016-03-15
 excerpt: "这里有你需要的各种关于文章的知识:比如段落,代码块,表格,图片,引用等等..."
 tag:
 - markdown 
-- syntax
-- sample
-- test
-- jekyll
+- 测试
 comments: true
 ---
 
