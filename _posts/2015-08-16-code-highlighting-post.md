@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 高亮语法
-date: 2013-08-16
+date: 2015-08-16
 excerpt: "Demo展示了在Markdown中突出代码的各种方式."
-tags: [sample post, code, highlighting]
+tags: [例子, markdown]
 comments: true
 ---
 

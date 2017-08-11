@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "关于在文章中插入图片"
-date: 2013-05-22
+date: 2016-05-22
 excerpt: "在文章中显示图像的例子和代码."
-tags: [sample post, images, test]
+tags: [例子, markdown]
 comments: true
 ---
 
@@ -15,15 +15,11 @@ comments: true
 
 <figure>
 	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
-
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
 
 #### Two Up
 
-Apply the `half` class like so to display two images side by side that share the same caption.
-
+举例:
 {% highlight html %}
 <figure class="half">
     <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
@@ -32,8 +28,7 @@ Apply the `half` class like so to display two images side by side that share the
 </figure>
 {% endhighlight %}
 
-And you'll get something that looks like this:
-
+你会得到这样的东西:
 <figure class="half">
 	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
 	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
@@ -42,7 +37,8 @@ And you'll get something that looks like this:
 
 #### Three Up
 
-Apply the `third` class like so to display three images side by side that share the same caption.
+应用`第三`类，像这样显示三个图像并排在一起，共享相同的标题。
+
 
 {% highlight html %}
 <figure class="third">
@@ -53,8 +49,7 @@ Apply the `third` class like so to display three images side by side that share 
 </figure>
 {% endhighlight %}
 
-And you'll get something that looks like this:
-
+你会得到这样:
 <figure class="third">
 	<img src="http://placehold.it/600x300.jpg">
 	<img src="http://placehold.it/600x300.jpg">
@@ -62,13 +57,9 @@ And you'll get something that looks like this:
 	<figcaption>Three images.</figcaption>
 </figure>
 
-### Alternative way
+### 可供选择的方法
 
-Another way to achieve the same result is to include `gallery` Liquid template. In this case you
-don't have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.
-
-Here is the block you might want to use:
+还可以这样使用:
 
 {% highlight liquid %}
 {% raw %}
@@ -81,13 +72,13 @@ Here is the block you might want to use:
 {% endraw %}
 {% endhighlight %}
 
-Parameters:
+参数:
 
 - `caption`: Sets the caption under the gallery (see `figcaption` HTML tag above);
 - `cols`: Sets the number of columns of the gallery.
 Available values: [1..3].
 
-It will look something like this:
+你会得到这样的:
 
 {% capture images %}
 	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "纯文本文章测试"
-date: 2017-08-22
-excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
+date: 2016-06-22
+excerpt: "一个测试性文章."
+tags: [例子, 测试]
 comments: true
 ---
 
