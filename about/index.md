@@ -7,10 +7,10 @@ comments: false
 ---
 
 
-## 翟留闯
-## 13604083099
-## zhailuo@163.com
-    
+<h2 align = "center">翟留闯</h2>
+<h3 align = "center">13604083099</h3>
+<h3 align = "center">zhailuo@163.com</h3>
+
 <!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
 ## Features
