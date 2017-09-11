@@ -316,7 +316,7 @@ function requestIceServers(iceServerRequestUrl, iceTransports) {
 
 
 
->  更改之后重新进入apprtc根目录使用 "grunt build'' 命令重新编译源码
+>  更改之后重新进入apprtc根目录使用 "grunt build'' 命令重新编译源码,然后重新启动服务
 
 **这时三个服务器都起来了**
 
