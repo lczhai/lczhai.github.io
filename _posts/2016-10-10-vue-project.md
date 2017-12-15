@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "GCD简单使用"
-date:   2016-10-11
+title:  "利用WebPack构建VUE项目"
+date:   2016-12-11
 excerpt: "gcd"
 tag:
 - vue 
